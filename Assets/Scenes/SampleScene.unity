@@ -136,10 +136,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1126475918}
     m_Modifications:
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 28184656}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
       propertyPath: m_Name
       value: Bloque43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque4
       objectReference: {fileID: 0}
     - target: {fileID: 9008946879713441117, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
@@ -211,6 +231,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27e8325f548465148a0e208adb7ae63f, type: 3}
+--- !u!1 &28184656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 28184655}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &53523559
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +464,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1656831815}
     m_Modifications:
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 112680214}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 5046804166814800367, guid: c6f469d2d019bfa47ada5b3003be2b78,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -508,11 +549,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque62
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque6
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3181800563862014236, guid: c6f469d2d019bfa47ada5b3003be2b78, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6f469d2d019bfa47ada5b3003be2b78, type: 3}
+--- !u!1 &112680214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
+    type: 3}
+  m_PrefabInstance: {fileID: 112680213}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &118643559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -586,16 +639,192 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 118643560}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
         type: 3}
       propertyPath: m_Name
       value: Bloque54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e44d37603f6a4dc4aadf912cd6213260, type: 3}
+--- !u!1 &118643560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+    type: 3}
+  m_PrefabInstance: {fileID: 118643559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &121769854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 121769858}
+  - component: {fileID: 121769857}
+  - component: {fileID: 121769855}
+  - component: {fileID: 121769856}
+  m_Layer: 5
+  m_Name: VidasPelota
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &121769855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121769854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 3
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &121769856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121769854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537d8157ed3ac5146ac6a2cab15d9f55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pelota: {fileID: 1596809091}
+  velocidadInicial: {x: 0, y: 0, z: 0}
+  CantidadVidas: {fileID: 121769855}
+--- !u!222 &121769857
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121769854}
+  m_CullTransparentMesh: 1
+--- !u!224 &121769858
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121769854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1903513401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -320, y: 100}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &126095596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1782,10 +2011,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1643576978}
     m_Modifications:
+    - target: {fileID: -6801791523168622418, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 617768130}
     - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
       propertyPath: m_Name
       value: Bloque14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque1
       objectReference: {fileID: 0}
     - target: {fileID: 7077091301928236160, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
@@ -1847,6 +2086,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b427035f301ae824e818e2841e0060db, type: 3}
+--- !u!1 &617768130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+    type: 3}
+  m_PrefabInstance: {fileID: 617768129}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &626305474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2074,10 +2319,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1643576978}
     m_Modifications:
+    - target: {fileID: -6801791523168622418, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 715019313}
     - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
       propertyPath: m_Name
       value: Bloque15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque1
       objectReference: {fileID: 0}
     - target: {fileID: 7077091301928236160, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
@@ -2139,6 +2394,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b427035f301ae824e818e2841e0060db, type: 3}
+--- !u!1 &715019313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+    type: 3}
+  m_PrefabInstance: {fileID: 715019312}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &719013275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3489345734997803421, guid: e44d37603f6a4dc4aadf912cd6213260,
@@ -2349,6 +2610,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1102171030}
     m_Modifications:
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 806407128}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 3886675276783769944, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2419,11 +2695,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque34
       objectReference: {fileID: 0}
+    - target: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6bf9fe00112014bbd8e3aae0eabfef, type: 3}
+--- !u!1 &806407128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+    type: 3}
+  m_PrefabInstance: {fileID: 806407127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,6 +2772,7 @@ GameObject:
   - component: {fileID: 851970254}
   - component: {fileID: 851970256}
   - component: {fileID: 851970257}
+  - component: {fileID: 851970258}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2557,6 +2845,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textoCronometro: {fileID: 1626885064}
   corriendo: 1
+--- !u!114 &851970258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851970253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537d8157ed3ac5146ac6a2cab15d9f55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pelota: {fileID: 1596809091}
+  velocidadInicial: {x: 0, y: 0, z: 0}
+  CantidadVidas: {fileID: 121769855}
 --- !u!1 &874506359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2777,6 +3080,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1656831815}
     m_Modifications:
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 912990118}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 5046804166814800367, guid: c6f469d2d019bfa47ada5b3003be2b78,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2847,11 +3165,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque65
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque6
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3181800563862014236, guid: c6f469d2d019bfa47ada5b3003be2b78, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6f469d2d019bfa47ada5b3003be2b78, type: 3}
+--- !u!1 &912990118 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
+    type: 3}
+  m_PrefabInstance: {fileID: 912990117}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &927936582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3886675276783769944, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
@@ -3146,6 +3476,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1102171030}
     m_Modifications:
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1082115560}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 3886675276783769944, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3216,11 +3561,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque35
       objectReference: {fileID: 0}
+    - target: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6bf9fe00112014bbd8e3aae0eabfef, type: 3}
+--- !u!1 &1082115560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1082115559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1083752402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3229,10 +3585,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1126475918}
     m_Modifications:
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1083752403}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
       propertyPath: m_Name
       value: Bloque42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque4
       objectReference: {fileID: 0}
     - target: {fileID: 9008946879713441117, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
@@ -3304,6 +3680,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27e8325f548465148a0e208adb7ae63f, type: 3}
+--- !u!1 &1083752403 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1083752402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1095600626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3312,6 +3694,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1102171030}
     m_Modifications:
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1095600627}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 3886675276783769944, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3382,11 +3779,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque33
       objectReference: {fileID: 0}
+    - target: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6bf9fe00112014bbd8e3aae0eabfef, type: 3}
+--- !u!1 &1095600627 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1095600626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1102171029
 GameObject:
   m_ObjectHideFlags: 0
@@ -3505,6 +3913,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1102171030}
     m_Modifications:
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1152305191}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 3886675276783769944, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3575,11 +3998,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque32
       objectReference: {fileID: 0}
+    - target: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6bf9fe00112014bbd8e3aae0eabfef, type: 3}
+--- !u!1 &1152305191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+    type: 3}
+  m_PrefabInstance: {fileID: 1152305190}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1165368641
 GameObject:
   m_ObjectHideFlags: 0
@@ -3822,16 +4256,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1278762838}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
         type: 3}
       propertyPath: m_Name
       value: Bloque24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05e791981c889284f9ed2f312c3fd09d, type: 3}
+--- !u!1 &1278762838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1278762837}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1304488917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4140,16 +4600,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1397380806}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
         type: 3}
       propertyPath: m_Name
       value: Bloque22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05e791981c889284f9ed2f312c3fd09d, type: 3}
+--- !u!1 &1397380806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1397380805}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1417852632
 GameObject:
   m_ObjectHideFlags: 0
@@ -5053,7 +5539,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d8157ed3ac5146ac6a2cab15d9f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Pelota: {fileID: 1596809091}
   velocidadInicial: {x: 0, y: 200, z: 0}
+  CantidadVidas: {fileID: 121769855}
 --- !u!1001 &1607985514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5127,16 +5615,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1607985515}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
         type: 3}
       propertyPath: m_Name
       value: Bloque53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e44d37603f6a4dc4aadf912cd6213260, type: 3}
+--- !u!1 &1607985515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+    type: 3}
+  m_PrefabInstance: {fileID: 1607985514}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1609885172
 GameObject:
   m_ObjectHideFlags: 0
@@ -5473,16 +5987,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1628917050}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
         type: 3}
       propertyPath: m_Name
       value: Bloque23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05e791981c889284f9ed2f312c3fd09d, type: 3}
+--- !u!1 &1628917050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1628917049}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1632778678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5491,10 +6031,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1126475918}
     m_Modifications:
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1632778679}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
       propertyPath: m_Name
       value: Bloque44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque4
       objectReference: {fileID: 0}
     - target: {fileID: 9008946879713441117, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
@@ -5566,6 +6126,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27e8325f548465148a0e208adb7ae63f, type: 3}
+--- !u!1 &1632778679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1632778678}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1643576977
 GameObject:
   m_ObjectHideFlags: 0
@@ -5578,7 +6144,7 @@ GameObject:
   - component: {fileID: 1643576979}
   m_Layer: 5
   m_Name: Fila1
-  m_TagString: Untagged
+  m_TagString: Bloque1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5755,16 +6321,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1672763505}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
         type: 3}
       propertyPath: m_Name
       value: Bloque52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e44d37603f6a4dc4aadf912cd6213260, type: 3}
+--- !u!1 &1672763505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+    type: 3}
+  m_PrefabInstance: {fileID: 1672763504}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1701293888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5773,6 +6365,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1656831815}
     m_Modifications:
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1701293889}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 5046804166814800367, guid: c6f469d2d019bfa47ada5b3003be2b78,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -5843,11 +6450,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque63
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque6
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3181800563862014236, guid: c6f469d2d019bfa47ada5b3003be2b78, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6f469d2d019bfa47ada5b3003be2b78, type: 3}
+--- !u!1 &1701293889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
+    type: 3}
+  m_PrefabInstance: {fileID: 1701293888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1730388139
 GameObject:
   m_ObjectHideFlags: 0
@@ -6140,16 +6759,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1758456914}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
         type: 3}
       propertyPath: m_Name
       value: Bloque55
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e44d37603f6a4dc4aadf912cd6213260, type: 3}
+--- !u!1 &1758456914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+    type: 3}
+  m_PrefabInstance: {fileID: 1758456913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1806472776
 GameObject:
   m_ObjectHideFlags: 0
@@ -6290,6 +6935,7 @@ RectTransform:
   m_Children:
   - {fileID: 1626885067}
   - {fileID: 1974154678}
+  - {fileID: 121769858}
   m_Father: {fileID: 243471130}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6453,10 +7099,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1126475918}
     m_Modifications:
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1947110708}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
       propertyPath: m_Name
       value: Bloque45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque4
       objectReference: {fileID: 0}
     - target: {fileID: 9008946879713441117, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
@@ -6528,6 +7194,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27e8325f548465148a0e208adb7ae63f, type: 3}
+--- !u!1 &1947110708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1947110707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1953904448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3489345734997803421, guid: e44d37603f6a4dc4aadf912cd6213260,
@@ -6545,6 +7217,7 @@ GameObject:
   - component: {fileID: 1974154678}
   - component: {fileID: 1974154680}
   - component: {fileID: 1974154679}
+  - component: {fileID: 1974154681}
   m_Layer: 5
   m_Name: Puntuacion
   m_TagString: Untagged
@@ -6668,6 +7341,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974154677}
   m_CullTransparentMesh: 1
+--- !u!114 &1974154681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974154677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23460fb84b285c741893621628f6aa48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Puntuacion: {fileID: 1974154679}
+  bloques: {fileID: 0}
+  BloquesVidas: 0
+  PuntuacionBloque: 0
 --- !u!1001 &1983066151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6676,6 +7365,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1656831815}
     m_Modifications:
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 1983066152}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 5046804166814800367, guid: c6f469d2d019bfa47ada5b3003be2b78,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -6746,11 +7450,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque64
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque6
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3181800563862014236, guid: c6f469d2d019bfa47ada5b3003be2b78, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6f469d2d019bfa47ada5b3003be2b78, type: 3}
+--- !u!1 &1983066152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
+    type: 3}
+  m_PrefabInstance: {fileID: 1983066151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2003661789
 GameObject:
   m_ObjectHideFlags: 0
@@ -6948,16 +7664,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 2059435434}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
         type: 3}
       propertyPath: m_Name
       value: Bloque25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05e791981c889284f9ed2f312c3fd09d, type: 3}
+--- !u!1 &2059435434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2059435433}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2066926587 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9008946879713441117, guid: 27e8325f548465148a0e208adb7ae63f,
@@ -7052,10 +7794,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1643576978}
     m_Modifications:
+    - target: {fileID: -6801791523168622418, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 2114586291}
     - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
       propertyPath: m_Name
       value: Bloque12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque1
       objectReference: {fileID: 0}
     - target: {fileID: 7077091301928236160, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
@@ -7112,6 +7864,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b427035f301ae824e818e2841e0060db, type: 3}
+--- !u!1 &2114586291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+    type: 3}
+  m_PrefabInstance: {fileID: 2114586290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2138541031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7120,10 +7878,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1643576978}
     m_Modifications:
+    - target: {fileID: -6801791523168622418, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 2138541032}
     - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
       propertyPath: m_Name
       value: Bloque13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque1
       objectReference: {fileID: 0}
     - target: {fileID: 7077091301928236160, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
@@ -7180,6 +7948,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b427035f301ae824e818e2841e0060db, type: 3}
+--- !u!1 &2138541032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+    type: 3}
+  m_PrefabInstance: {fileID: 2138541031}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2140966807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7077091301928236160, guid: b427035f301ae824e818e2841e0060db,
@@ -7314,10 +8088,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1126475918}
     m_Modifications:
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 707188388000239416}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855523698728917711, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
       propertyPath: m_Name
       value: Bloque41
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque4
       objectReference: {fileID: 0}
     - target: {fileID: 9008946879713441117, guid: 27e8325f548465148a0e208adb7ae63f,
         type: 3}
@@ -7395,6 +8189,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 707188388000239414}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &707188388000239416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7081516080071226192, guid: 27e8325f548465148a0e208adb7ae63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 707188388000239414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2910540777732720503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7403,6 +8203,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1656831815}
     m_Modifications:
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 2910540777732720505}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7467457610164401483, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 5046804166814800367, guid: c6f469d2d019bfa47ada5b3003be2b78,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -7473,6 +8288,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque61
       objectReference: {fileID: 0}
+    - target: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7481,6 +8301,12 @@ PrefabInstance:
 --- !u!4 &2910540777732720504 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5046804166814800367, guid: c6f469d2d019bfa47ada5b3003be2b78,
+    type: 3}
+  m_PrefabInstance: {fileID: 2910540777732720503}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2910540777732720505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8270888215476186688, guid: c6f469d2d019bfa47ada5b3003be2b78,
     type: 3}
   m_PrefabInstance: {fileID: 2910540777732720503}
   m_PrefabAsset: {fileID: 0}
@@ -7557,10 +8383,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 4896378897320719879}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6803044613540229370, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
         type: 3}
       propertyPath: m_Name
       value: Bloque21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7570,6 +8416,12 @@ PrefabInstance:
 --- !u!4 &4896378897320719878 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2988614987768504139, guid: 05e791981c889284f9ed2f312c3fd09d,
+    type: 3}
+  m_PrefabInstance: {fileID: 4896378897320719877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4896378897320719879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8186004617053018063, guid: 05e791981c889284f9ed2f312c3fd09d,
     type: 3}
   m_PrefabInstance: {fileID: 4896378897320719877}
   m_PrefabAsset: {fileID: 0}
@@ -7646,10 +8498,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 5592233247088512629}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3997390111187981497, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
         type: 3}
       propertyPath: m_Name
       value: Bloque51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7662,6 +8534,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5592233247088512627}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5592233247088512629 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6144566813372081227, guid: e44d37603f6a4dc4aadf912cd6213260,
+    type: 3}
+  m_PrefabInstance: {fileID: 5592233247088512627}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7535666290052631414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7670,10 +8548,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1643576978}
     m_Modifications:
+    - target: {fileID: -6801791523168622418, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 7535666290052631416}
     - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
       propertyPath: m_Name
       value: Bloque11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque1
       objectReference: {fileID: 0}
     - target: {fileID: 7077091301928236160, guid: b427035f301ae824e818e2841e0060db,
         type: 3}
@@ -7736,6 +8624,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7535666290052631414}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7535666290052631416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4021017792054457430, guid: b427035f301ae824e818e2841e0060db,
+    type: 3}
+  m_PrefabInstance: {fileID: 7535666290052631414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7887483800094151904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7744,6 +8638,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1102171030}
     m_Modifications:
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: bloques
+      value: 
+      objectReference: {fileID: 7887483800094151906}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: BloquesVidas
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326365422594142027, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: PuntuacionBloque
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 3886675276783769944, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -7814,6 +8723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque31
       objectReference: {fileID: 0}
+    - target: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloque3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7822,6 +8736,12 @@ PrefabInstance:
 --- !u!4 &7887483800094151905 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3886675276783769944, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
+    type: 3}
+  m_PrefabInstance: {fileID: 7887483800094151904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7887483800094151906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6230640422578987259, guid: 4c6bf9fe00112014bbd8e3aae0eabfef,
     type: 3}
   m_PrefabInstance: {fileID: 7887483800094151904}
   m_PrefabAsset: {fileID: 0}

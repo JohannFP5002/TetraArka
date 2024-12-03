@@ -24,6 +24,10 @@ public class HUDjuego : MonoBehaviour
         {
             tiempoTranscurrido += Time.deltaTime;
         }
+        else
+        {
+            tiempoTranscurrido = tiempoTranscurrido;
+        }
         MostrarTiempo();
     }
     
